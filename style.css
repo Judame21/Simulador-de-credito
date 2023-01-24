@@ -1,0 +1,51 @@
+body{
+    background-color: blue;
+
+}
+h2{
+    text-align: center;
+    margin: 0px 0px 30px;
+}
+.contenedor-grande{
+    background-color: aliceblue;
+    width: 450px;
+    padding: 50px 40px;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.1);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.lbl{
+    font-size: 16px;
+    color: #44475b;
+    font-weight: 400;
+}
+
+.val{
+    color: #44475b;
+    font-weight: 600;
+    font-size: 18px;
+}
+hr{
+    border: none;
+    border-bottom: 1px solid #cdccfd;
+}
+
+input[type="range"]{
+    width: 100%;
+    cursor: pointer;
+}
+.total{
+    font-size: 25px;
+    font-weight: 800;
+}

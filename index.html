@@ -1,0 +1,65 @@
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    
+    
+    <section>
+
+        <div class="contenedor-grande">
+            <h2>Simula tu credito</h3>
+            <section>
+                <div class="container">
+                    <label for="dinero" class="lbl">Elige el monto</label>
+                    <span id="textoDinero" class="val">$300.000</span>
+                </div>
+                
+                <input type="range" value="300000" id="dinero" min="50000" max="1000000" step="10000"> 
+        
+                <div class="container">
+                    <label for="dias">¿En cuantos dias deseas pagarlo?</label>
+                    <span id="textoDias" class="val">10 dias</span>
+                </div>
+                    <input type="range" id="dias" min="5" max="30" step="1">
+  
+                    <hr/>
+
+            </section>
+
+            <section>   
+                <div class="contenedor-informacion">
+                    <div class="container">
+                        <span class="lbl">Monto Solicitado</span>
+                        <span id="texto-monto" class="var">$300.000</span>
+                    </div>
+                    <div class="container">
+                        <span class="lbl">Interes</span>
+                        <span id="texto-interes" class="var">$300.000</span>
+                    </div>
+                    <div class="container">
+                        <span class="lbl">IVA</span>
+                        <span id="texto-IVA" class="var">$300.000</span>
+                    </div>
+                    <div class="container">
+                        <span class="lbl">Administrativo</span>
+                        <span id="texto-administrativo" class="var">$60.000</span>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <span class="total">Total</span>
+                        <span id="texto-total" class="var total">$300.000</span>
+                    </div>
+                </div>
+            </section>   
+            
+        </div>
+
+    </section>
+
+
+
+    <script src="codigo.js">
+    </script>
+</body>
